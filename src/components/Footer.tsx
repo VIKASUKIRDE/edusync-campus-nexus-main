@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           <div>
             <Logo size="lg" className="mb-6" />
             <p className="text-gray-300 font-inter text-sm leading-relaxed mb-6 max-w-sm">
-              EduSync is a comprehensive Learning Management System designed to revolutionize 
+              Learn_Me is a comprehensive Learning Management System designed to revolutionize 
               college administration with modern tools for assignments, live classes, quizzes, 
               and seamless academic management.
             </p>
@@ -84,12 +84,12 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 font-inter text-sm">
-              © {currentYear} EduSync. All rights reserved.
+              © {currentYear} Learn_Me. All rights reserved.
             </div>
             
             <div className="text-gray-400 font-inter text-sm">
               Developed by{' '}
-              <span className="text-accent font-semibold">WHELT TECHNOLOGY LTD</span>
+              <span className="text-accent font-semibold">Learn_Me</span>
             </div>
             
             <div className="flex space-x-6">

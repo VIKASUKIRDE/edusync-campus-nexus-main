@@ -30,7 +30,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="font-poppins font-bold text-4xl lg:text-5xl mb-6">
-              About EduSync
+              About Learn_Me
             </h1>
             <p className="font-inter text-xl text-primary-100 leading-relaxed">
               We're revolutionizing education through innovative technology, 

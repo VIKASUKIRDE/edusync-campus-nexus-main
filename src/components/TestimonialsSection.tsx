@@ -4,7 +4,7 @@ import React from 'react';
 const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      quote: "EduSync has revolutionized how we manage our college. The assignment system and grade tracking make everything so much easier.",
+      quote: "Learn_Me has revolutionized how we manage our college. The assignment system and grade tracking make everything so much easier.",
       author: "Dr. Sarah Johnson",
       role: "Dean of Academic Affairs",
       institution: "Tech University"
@@ -31,7 +31,7 @@ const TestimonialsSection: React.FC = () => {
             What Our Users Say
           </h2>
           <p className="font-inter text-lg text-gray-600 max-w-2xl mx-auto">
-            Hear from educators and students who are transforming their academic experience with EduSync.
+            Hear from educators and students who are transforming their academic experience with Learn_Me.
           </p>
         </div>
 

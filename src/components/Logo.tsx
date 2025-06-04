@@ -27,10 +27,10 @@ const Logo: React.FC<LogoProps> = ({ className = '', showText = true, size = 'md
         {/* Main logo container with gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 rounded-lg shadow-lg"></div>
         
-        {/* Logo letters - stylized 'ES' for EduSync */}
+        {/* Logo letters - stylized 'ES' for Learn_Me */}
         <div className="relative w-full h-full flex items-center justify-center">
           <div className="text-white font-bold relative">
-            <span className="font-poppins text-lg font-black tracking-tight">ES</span>
+            <span className="font-poppins text-lg font-black tracking-tight">LM</span>
           </div>
         </div>
         
@@ -40,7 +40,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', showText = true, size = 'md
       
       {showText && (
         <span className={`font-poppins font-bold ${textSizes[size]} bg-gradient-to-r from-primary-700 to-primary-800 bg-clip-text text-transparent`}>
-          EduSync
+          Learn_Me
         </span>
       )}
     </div>

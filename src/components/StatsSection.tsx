@@ -25,7 +25,7 @@ const StatsSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-poppins font-bold text-3xl lg:text-4xl mb-4">
-            Proven College Management Solution
+            Proven Learning Management Solution
           </h2>
           <p className="font-inter text-lg text-primary-100 max-w-2xl mx-auto">
             Empowering educational excellence with comprehensive management tools

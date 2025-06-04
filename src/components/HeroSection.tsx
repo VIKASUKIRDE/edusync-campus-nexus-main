@@ -5,24 +5,24 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 bg-hero-pattern">
+    <section className="bg-gradient-to-r from-primary-50 to-accent/10 relative overflow-hidden">
       <div className="container mx-auto px-4 py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="animate-fade-in">
             <div className="inline-flex items-center px-4 py-2 bg-primary-50 rounded-full text-primary-700 text-sm font-medium mb-6">
-              🎓 College Management Platform
+              🎓 Learning Management Platform
             </div>
             
             <h1 className="font-poppins font-bold text-4xl lg:text-6xl text-gray-900 leading-tight mb-6">
               Transform Your
               <span className="block bg-gradient-to-r from-primary-600 to-accent bg-clip-text text-transparent">
-                College Management
+                Learning Management
               </span>
             </h1>
             
             <p className="font-inter text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
-              EduSync is the comprehensive Learning Management System that empowers colleges with 
+              Learning is the comprehensive Learning Management System that empowers colleges with 
               advanced tools for assignments, live classes, quizzes, grades, and complete 
               academic administration.
             </p>

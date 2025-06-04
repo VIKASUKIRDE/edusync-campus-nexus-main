@@ -7,19 +7,19 @@ const Contact: React.FC = () => {
     {
       icon: '📧',
       title: 'Email Us',
-      details: 'support@edusync.com',
+      details: 'support@learnme.com',
       description: 'Get in touch via email'
     },
     {
       icon: '📞',
       title: 'Call Us',
-      details: '+1 (555) 123-4567',
+      details: '+91 8412849372',
       description: 'Mon-Fri, 9AM-6PM EST'
     },
     {
       icon: '🏢',
       title: 'Visit Us',
-      details: '123 Education St, Tech City',
+      details: 'Ahilyanagar,Maharashtra, India',
       description: 'Our main office location'
     },
     {
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
               Get in Touch
             </h1>
             <p className="font-inter text-xl text-primary-100 leading-relaxed">
-              Have questions about EduSync? We're here to help you with your college management needs.
+              Have questions about Learn_me? We're here to help you with your college management needs.
             </p>
           </div>
         </div>
@@ -84,14 +84,14 @@ const Contact: React.FC = () => {
                   {/* Demo Google Map */}
                   <div className="w-full h-80 bg-gray-200 rounded-lg overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093046!2d144.95373631531892!3d-37.81627997975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sau!4v1629879185570!5m2!1sen!2sau"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxok0aBx4oD7s2mWywWwRxSnwc545BrM4&q=Ahilyanagar,Maharashtra,India"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="EduSync Office Location"
+                      title="Learn_Me Office Location"
                     />
                   </div>
                 </CardContent>
@@ -112,9 +112,9 @@ const Contact: React.FC = () => {
                       Headquarters
                     </h4>
                     <p className="font-inter text-gray-600">
-                      123 Education Street<br />
-                      Tech City, TC 12345<br />
-                      United States
+                      Ahilyanagar <br />
+                      Maharashtra<br />
+                      India
                     </p>
                   </div>
                   
@@ -123,9 +123,9 @@ const Contact: React.FC = () => {
                       Regional Office
                     </h4>
                     <p className="font-inter text-gray-600">
-                      456 Learning Avenue<br />
-                      Innovation Hub, IH 67890<br />
-                      Canada
+                      Ahilyanagar (Ahmednagar)<br />
+                      Maharashtra<br />
+                      India
                     </p>
                   </div>
 
